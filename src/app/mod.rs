@@ -172,7 +172,7 @@ pub async fn run() -> Result<(), AppError> {
             last_used: Some(time.clone()),
             game_dir: Some(install_location.to_string_lossy().into()),
             java_args: None,
-            last_version_id: format!("Change this to valid {} {}-{} version", game.version, modloader.name, modloader.version),
+            last_version_id: format!("change-this-to-valid-{}-{}-{}-version", game.version, modloader.name, modloader.version),
             icon: Some(icon),
             name: info.name.clone(),
             profile_type: "custom".into(),
