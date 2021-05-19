@@ -5,13 +5,11 @@
  */
 
 use std::{
-    ffi::OsStr,
     fs::File,
-    io::{self, BufReader, BufWriter, Read, Seek, Write},
+    io::{self, BufReader, BufWriter, Read, Seek},
     path::PathBuf,
 };
 
-use futures::StreamExt;
 use zip::{result::ZipError, ZipArchive};
 
 use crate::api::overrides::manifest::PackManifest;
