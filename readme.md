@@ -1,7 +1,7 @@
 # Modpack installer
 > Stop waiting forever for FTBApp and slow modpack download.
 
-An Minecraft modpack intaller made with rust.
+An Minecraft modpack installer made with rust.
 Install any modpack to existing vanilla launcher without any 3rd party program.
 
 ## Features
